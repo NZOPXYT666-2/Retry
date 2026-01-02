@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "retry",
+  "version": "1.0.0",
+  "name": "Retry Client Mod",
+  "description": "Client-only mod that prints a load message",
+  "authors": ["Nzo"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.enzomodkit.EnzoClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric": "*",
+    "minecraft": "1.21.8"
+  }
+}
